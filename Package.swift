@@ -20,7 +20,7 @@ let package = Package(
     ],
     dependencies: [
         // Mark: Dependencies Begin
-        .package(url: "https://github.com/AddApptr/AATKit.git", exact: "3.18.0-beta2"),
+        .package(url: "https://github.com/AddApptr/AATKit.git", exact: "3.18.0-beta3"),
         // Mark: Dependencies End
     ],
     // Mark: Targets
@@ -31,7 +31,6 @@ let package = Package(
                     .product(name: "AATKit-Core", package: "AATKit"),
                     "AATHyBid",
                     "AATOMSDK_Pubnativenet",
-                    "AATATOM",
                     "AATPubNativeAdapter",
                     // Mark: Target Dependencies End
                 ],
@@ -40,23 +39,18 @@ let package = Package(
         // Mark: Binary Targets
         .binaryTarget(
             name: "AATHyBid",
-            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0-beta2/HyBid.zip",
-            checksum: "7337178db4de1fc6a7080616738ea1ac74b25ffeb5f7cfb8ab843a0c5caf9f3a"
+            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0-beta3/HyBid.zip",
+            checksum: "ec5928bbd362cdc8a03d3b637251dba9b6fd020edbfa99007944a6a708be4eca"
         ),
         .binaryTarget(
             name: "AATOMSDK_Pubnativenet",
-            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0-beta2/OMSDK_Pubnativenet.zip",
-            checksum: "964344a84c5aad0920ad6a3ec26294aecfcbc743d1aca73864abac3854a8ddbb"
-        ),
-        .binaryTarget(
-            name: "AATATOM",
-            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0-beta2/ATOM.zip",
-            checksum: "4930a93c90279a01b12f7f616e60b29623453310584adc5ce7f382a5eb4b5197"
+            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0-beta3/OMSDK_Pubnativenet.zip",
+            checksum: "1a60935b3aa87fc50c29bc0788cfd8dd5c74c0e46333be37fc0a2ed572e634ad"
         ),
         .binaryTarget(
             name: "AATPubNativeAdapter",
-            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0-beta2/AATPubNativeAdapter.zip",
-            checksum: "5460a580bfa8d03e93299d55e3030c5063ad827bc32f0cd518c6341cc8bfae9f"
+            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0-beta3/AATPubNativeAdapter.zip",
+            checksum: "de577c6b45b88e07768ce4fbe69a16b570d68d6324dc8d57511cd9b643d00097"
         ),
     ]
 )
