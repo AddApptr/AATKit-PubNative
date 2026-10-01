@@ -20,7 +20,7 @@ let package = Package(
     ],
     dependencies: [
         // Mark: Dependencies Begin
-        .package(url: "https://github.com/AddApptr/AATKit.git", exact: "3.18.0-beta3"),
+        .package(url: "https://github.com/AddApptr/AATKit.git", exact: "3.18.0"),
         // Mark: Dependencies End
     ],
     // Mark: Targets
@@ -39,18 +39,18 @@ let package = Package(
         // Mark: Binary Targets
         .binaryTarget(
             name: "AATHyBid",
-            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0-beta3/HyBid.zip",
-            checksum: "ec5928bbd362cdc8a03d3b637251dba9b6fd020edbfa99007944a6a708be4eca"
+            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0/HyBid.zip",
+            checksum: "85efead5a95d5e024ec7f2c979b3111a3a0e7282c637543672852a7072c5c07b"
         ),
         .binaryTarget(
             name: "AATOMSDK_Pubnativenet",
-            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0-beta3/OMSDK_Pubnativenet.zip",
-            checksum: "1a60935b3aa87fc50c29bc0788cfd8dd5c74c0e46333be37fc0a2ed572e634ad"
+            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0/OMSDK_Pubnativenet.zip",
+            checksum: "999cea067bc659426afd909887afa448466ab496f0ec95c2daa83859f3f436f1"
         ),
         .binaryTarget(
             name: "AATPubNativeAdapter",
-            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0-beta3/AATPubNativeAdapter.zip",
-            checksum: "de577c6b45b88e07768ce4fbe69a16b570d68d6324dc8d57511cd9b643d00097"
+            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0/AATPubNativeAdapter.zip",
+            checksum: "5907edb4437da3229b1715c0db980c4a650bab588f23f80944aebf00a907fea5"
         ),
     ]
 )
